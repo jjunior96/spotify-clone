@@ -6,6 +6,7 @@ export const Container = styled.header`
     height: ${theme.grid.header};
     background-color: ${theme.colors.blackOpacity};
     position: fixed;
+    z-index: ${theme.layers.alwaysOnTop};
   `}
 `;
 
@@ -31,21 +32,27 @@ export const List = styled.ul`
   align-items: center;
 `;
 
-export const NavItem = styled.li`
+export const ListItem = styled.li`
   ${({ theme }) => css`
     list-style: none;
     color: ${theme.colors.white};
     font-weight: ${theme.font.bold};
+    transition: color 0.3s;
+    cursor: pointer;
 
     & + li {
       margin-left: ${theme.spacings.small};
+    }
+
+    &:hover {
+      color: ${theme.colors.green};
     }
 
     &:last-child::after {
       content: '|';
       height: 100%;
       width: 3px;
-      color: #fff;
+      color: ${theme.colors.white};
       margin: 0 ${theme.spacings.small};
     }
   `}
