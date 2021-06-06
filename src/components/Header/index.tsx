@@ -11,9 +11,9 @@ const Header = () => {
 
         <S.Nav>
           <S.List>
-            <S.NavItem>Premium</S.NavItem>
-            <S.NavItem>Suporte</S.NavItem>
-            <S.NavItem>Baixar</S.NavItem>
+            <S.ListItem>Premium</S.ListItem>
+            <S.ListItem>Suporte</S.ListItem>
+            <S.ListItem>Baixar</S.ListItem>
           </S.List>
           <Profile />
         </S.Nav>
