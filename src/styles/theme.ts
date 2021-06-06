@@ -1,6 +1,7 @@
 export default {
   grid: {
-    container: '130rem',
+    container: '115rem',
+    header: '8rem',
     gutter: '3.2rem'
   },
   border: {
@@ -30,8 +31,9 @@ export default {
     secondary: '',
     mainBg: '',
     lightBg: '',
-    white: '',
-    black: '',
+    white: '#fff',
+    black: '#000',
+    blackOpacity: '#000000B3',
     lightGray: '',
     gray: '',
     darkGray: '',
