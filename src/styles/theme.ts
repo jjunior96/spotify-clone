@@ -23,6 +23,7 @@ export default {
       large: '1.8rem',
       xlarge: '2.0rem',
       xxlarge: '2.8rem',
+      xxxlarge: '4.2rem',
       huge: '5.2rem'
     }
   },
@@ -33,9 +34,10 @@ export default {
     lightBg: '',
     white: '#fff',
     black: '#000',
-    blackOpacity: '#000000B3',
+    green: '#38933D',
+    blackOpacity: '#00000080',
     lightGray: '',
-    gray: '',
+    gray: '#191B1B',
     darkGray: '',
     red: ''
   },
